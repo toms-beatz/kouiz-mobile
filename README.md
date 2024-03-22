@@ -17,17 +17,11 @@ Cette application est une application React Native qui permet aux utilisateurs d
 Cette application utilise Expo pour le développement et le déploiement.
 
 ## Maquettes/Aperçu
-<div style="display:flex; flex-direction:column;">
-    <div style="display:flex;">
-        <img src="./assets/views/register.PNG" width="50%"/>
-        <img src="./assets/views/login.PNG" width="50%"/>
-    </div>
-    <div style="display:flex;">
-        <img src="./assets/views/home-screen.PNG" width="50%"/>
-        <img src="./assets/views/kouiz-screen.PNG" width="50%"/>
-        <img src="./assets/views/profile-screen.PNG" width="50%"/>
-    </div>
-</div>
+<img src="./assets/views/register.PNG" width="50%"/>
+<img src="./assets/views/login.PNG" width="50%"/>
+<img src="./assets/views/home-screen.PNG" width="50%"/>
+<img src="./assets/views/kouiz-screen.PNG" width="50%"/>
+<img src="./assets/views/profile-screen.PNG" width="50%"/>
 
 
 ## Prérequis
