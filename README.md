@@ -17,10 +17,11 @@ Cette application est une application React Native qui permet aux utilisateurs d
 Cette application utilise Expo pour le développement et le déploiement.
 
 ## Maquettes/Aperçu
-![Page Register.](./assets/views/register.PNG "This is the register page.")![Page Login.](./assets/views/login.PNG "This is the login page.")
-![Page Home.](./assets/views/home-screen.PNG "This is the homepage.")
-![Page Mes Kouiz.](./assets/views/kouiz-screen.PNG "This is the kouiz page.")
-![Page Mon Profil.](./assets/views/profile-screen.PNG "This is the profile.")
+![Page Register.](./assets/views/register.PNG "This is the register page."){ width=50% }
+![Page Login.](./assets/views/login.PNG "This is the login page."){ width=50% }
+![Page Home.](./assets/views/home-screen.PNG "This is the homepage."){ width=50% }
+![Page Mes Kouiz.](./assets/views/kouiz-screen.PNG "This is the kouiz page."){ width=50% }
+![Page Mon Profil.](./assets/views/profile-screen.PNG "This is the profile."){ width=50% }
 
 
 ## Prérequis
