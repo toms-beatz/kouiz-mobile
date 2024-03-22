@@ -1,8 +1,8 @@
 # Kouiz
-#### _Quand la création de quiz s'actualise_
+#### _Quand la création de quiz s'actualise_ ✨
 
 
-## Description
+## 📝 Description
 
 Cette application est une application React Native qui permet aux utilisateurs de :
 
@@ -16,7 +16,7 @@ Cette application est une application React Native qui permet aux utilisateurs d
 
 Cette application utilise Expo pour le développement et le déploiement.
 
-## Maquettes/Aperçu
+## 🎨 Maquettes/Aperçu
 <img src="./assets/views/register.PNG" width="50%"/>
 <img src="./assets/views/login.PNG" width="50%"/>
 <img src="./assets/views/home-screen.PNG" width="50%"/>
@@ -24,7 +24,7 @@ Cette application utilise Expo pour le développement et le déploiement.
 <img src="./assets/views/profile-screen.PNG" width="50%"/>
 
 
-## Prérequis
+## 🚨 Prérequis
 
 Avant de commencer, assurez-vous d'avoir installé Node.js et npm sur votre machine. Vous aurez également besoin d'Expo CLI. Vous pouvez l'installer en exécutant la commande suivante :
 
@@ -32,7 +32,7 @@ Avant de commencer, assurez-vous d'avoir installé Node.js et npm sur votre mach
 npm install -g expo-cli
 ```
 
-## Installation
+## 🛠️ Installation
 Pour installer l'application, suivez les étapes suivantes :
 
 1. Télécharger sur votre smartphone l'application [Expo Go](https://expo.dev/go)
@@ -49,7 +49,7 @@ cd kouiz-mobile
 npm i
 ```
 
-## Utilisation
+## 📲 Utilisation
 Pour lancer l'application, exécutez la commande suivante :
 ```
 npx expo start
