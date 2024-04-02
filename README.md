@@ -1,5 +1,4 @@
 # Kouiz
-#### _Quand la création de quiz s'actualise_ ✨
 
 
 ## 📝 Description
