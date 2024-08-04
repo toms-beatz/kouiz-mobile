@@ -3,17 +3,23 @@
 module.exports = {
   content: ["./App.{js,jsx,ts,tsx}", "./screens/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'manrope': ['Manrope', 'sans-serif'],
+        'unbounded': ['Unbounded', 'sans-serif'],
+      },
+    },
     
     colors: {
-      'primaryBrown' : '#9D775D',
-      'primaryBeige' : '#FFE3CB',
-      'secondaryBeige' : '#FFF1E5',
-      'lightBeige' : '#FFF9F5',
-      'darkBlue' : '#2E3B52',
-      'lightBlue' : '#232D41',
-      'white': '#FFFFFF',
-      'black': '#000000',
+      'pBlue':'#2E3B52',
+      'sBlue':'#232D41',
+      'pBeige':'#FFE3CB',
+      'sBeige': '#FFF1E5',
+      'tBeige': '#FFF9F5',
+      'pBrown': '#9D775D',
+      'pWhite': '#ffffff',
+      'transparent': 'rgba(255, 255, 255, 0)',
+      'pGray': "#f1f1f1"
     },
   },
   plugins: [],
