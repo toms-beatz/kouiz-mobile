@@ -9,11 +9,11 @@ module.exports = {
         'unbounded': ['Unbounded', 'sans-serif'],
       },
     },
-    
+
     colors: {
-      'pBlue':'#2E3B52',
-      'sBlue':'#232D41',
-      'pBeige':'#FFE3CB',
+      'pBlue': '#2E3B52',
+      'sBlue': '#232D41',
+      'pBeige': '#FFE3CB',
       'sBeige': '#FFF1E5',
       'tBeige': '#FFF9F5',
       'pBrown': '#9D775D',

@@ -151,8 +151,6 @@ export default function MyKouizScreen({ route, navigation }) {
             onEndReachedThreshold={0.5}
             ListFooterComponent={renderFooter}
             ListHeaderComponent={renderHeader}
-
-
             contentContainerStyle={{ paddingBottom: 40 }}
           />
         )}

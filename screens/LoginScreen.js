@@ -15,10 +15,8 @@ export default function LoginScreen({ navigation, route }) {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
-    // State variable to track password visibility 
     const [showPassword, setShowPassword] = useState(false);
 
-    // Function to toggle the password visibility state 
     const toggleShowPassword = () => {
         setShowPassword(!showPassword);
     };

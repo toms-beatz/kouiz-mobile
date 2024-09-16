@@ -6,7 +6,6 @@ import UserContext from '../contexts/UserContext';
 import { Link } from '@react-navigation/native';
 import { FolderSearch, ArrowRight, RefreshCw } from 'lucide-react-native';
 
-
 export default function HomeScreen({ }) {
     const { setUser, user } = React.useContext(UserContext);
     const [dashboardData, setDashboardData] = useState(null);

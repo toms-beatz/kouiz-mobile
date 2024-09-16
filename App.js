@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { useColorScheme } from 'react-native';
-
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import AsyncStorage from '@react-native-async-storage/async-storage';
@@ -16,7 +15,6 @@ import HomeScreen from './screens/HomeScreen';
 import MyKouizScreen from './screens/MyKouizScreen';
 import ProfileScreen from './screens/ProfileScreen';
 import KouizAnswer from './screens/KouizAnswer';
-
 import {
   Unbounded_400Regular,
   Unbounded_500Medium,

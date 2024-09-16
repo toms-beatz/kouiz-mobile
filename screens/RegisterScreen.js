@@ -15,7 +15,6 @@ export default function RegisterScreen({ navigation }) {
     const colorScheme = useColorScheme();
     const { setIsConnected } = React.useContext(AuthContext);
     const [username, setUsername] = useState('');
-    const [role, setRole] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [isDatePickerVisible, setDatePickerVisibility] = useState(false);
@@ -23,10 +22,8 @@ export default function RegisterScreen({ navigation }) {
     const [birthdateToShow, setBirthdateToShow] = useState(null);
     const [selectedDate, setSelectedDate] = useState(null);
 
-    // State variable to track password visibility 
     const [showPassword, setShowPassword] = useState(false);
 
-    // Function to toggle the password visibility state 
     const toggleShowPassword = () => {
         setShowPassword(!showPassword);
     };
@@ -52,8 +49,6 @@ export default function RegisterScreen({ navigation }) {
         currentDate.setFullYear(currentDate.getFullYear() - 13);
 
         if (date > currentDate) {
-            // Afficher un message d'erreur
-
             Alert.alert('Erreur', 'Vous devez avoir au moins 13 ans.', [
                 {
                     text: 'Quitter',
@@ -181,7 +176,7 @@ export default function RegisterScreen({ navigation }) {
                                                     </View>
                                                 }}
                                                 accentColor='#9D775D'
-                                                pickerContainerStyleIOS={{ backgroundColor: colorScheme === 'dark' ? '#2E3B52' : '#fff'}}
+                                                pickerContainerStyleIOS={{ backgroundColor: colorScheme === 'dark' ? '#2E3B52' : '#fff' }}
                                                 customConfirmButtonIOS={() => {
                                                     return <View style={{ justifyContent: 'center', alignItems: 'center' }}>
                                                         <Pressable
@@ -201,7 +196,7 @@ export default function RegisterScreen({ navigation }) {
                                                         </Pressable>
                                                     </View>
                                                 }}
-                                                // value={selectedDate ? new Date(selectedDate) : new Date(2001, 8, 9)}
+                                            // value={selectedDate ? new Date(selectedDate) : new Date(2001, 8, 9)}
                                             />
                                             <CalendarDays width='22' className='text-pBrown' />
 

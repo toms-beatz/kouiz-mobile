@@ -88,7 +88,6 @@ export default function ProfileScreen({ route, navigation }) {
                                 <TextInput
                                     className="h-10 mt-2 w-full bg-[#f3f3f3] rounded-lg block p-2.5 dark:text-[#000] border border-pGray"
                                     inputMode='text'
-                                    // value={user && user.username ? user.username : username}
                                     onChangeText={setUsername}
                                     placeholder='John Doe'
                                     placeholderTextColor='gray'
@@ -99,7 +98,6 @@ export default function ProfileScreen({ route, navigation }) {
                                 <TextInput
                                     className="h-10 mt-2 w-full bg-[#f3f3f3] rounded-lg block p-2.5 dark:text-[#000] border border-pGray"
                                     inputMode='email'
-                                    // value={user && user.email ? user.email : email}
                                     onChangeText={setEmail}
                                     placeholder='contact@kouiz.fr'
                                     placeholderTextColor='gray'

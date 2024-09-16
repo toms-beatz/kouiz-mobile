@@ -8,8 +8,6 @@ import { get } from 'react-native/Libraries/TurboModule/TurboModuleRegistry';
 import UserContext from '../contexts/UserContext';
 import { Link } from '@react-navigation/native';
 
-
-
 export default function AnswersScreen({ route, navigation }) {
   const [isConnected, setIsConnected] = React.useState(AuthContext);
   const { setUser, user } = React.useContext(UserContext);
@@ -37,7 +35,6 @@ export default function AnswersScreen({ route, navigation }) {
       ) : (
         <View className="flex justify-center items-center w-full h-full pt-40 pb-96 mb-auto dark:bg-sBlue">
           <Text style={styles.title_bold} className="text-xl text-pBrown w-11/12 text-center">
-            {/* Vous n'avez encore enregistrer de réponse */}
             L'enregistrement de réponses n'est pas encore disponible.
           </Text>
           <Text style={styles.body} className="text-md dark:text-pWhite mt-4 text-center">
@@ -50,8 +47,6 @@ export default function AnswersScreen({ route, navigation }) {
           </Pressable>
         </View>
       )}
-
-
     </ScrollView>
   );
 }
