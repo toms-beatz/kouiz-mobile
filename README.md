@@ -1,6 +1,4 @@
-# Kouiz
-#### _Quand la création de quiz s'actualise_ ✨
-
+# Kouiz Mobile 📱
 
 ## 📝 Description
 
@@ -8,20 +6,20 @@ Cette application est une application React Native qui permet aux utilisateurs d
 
 - Créer un compte
 - Se connecter
-- Voir des quiz (bientôt)
-- Répondre à des quiz (bientôt)
-- Modifier son compte (bientôt)
-- Supprimer son compte (bientôt)
+- Voir des quiz 
+- Répondre à des quiz 
+- Modifier son compte 
+- Supprimer son compte
 - Se déconnecter
 
 Cette application utilise Expo pour le développement et le déploiement.
 
-## 🎨 Maquettes/Aperçu
+<!-- ## 🎨 Maquettes/Aperçu
 <img src="./assets/views/register.PNG" width="50%"/>
 <img src="./assets/views/login.PNG" width="50%"/>
 <img src="./assets/views/home-screen.PNG" width="50%"/>
 <img src="./assets/views/kouiz-screen.PNG" width="50%"/>
-<img src="./assets/views/profile-screen.PNG" width="50%"/>
+<img src="./assets/views/profile-screen.PNG" width="50%"/> -->
 
 
 ## 🚨 Prérequis
